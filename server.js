@@ -1,5 +1,3 @@
-// mongodb+srv://temp:temp@cluster0.mig6cvx.mongodb.net/temp?retryWrites=true&w=majority
-
 const express = require("express");
 const app = express();
 const mongoose = require('mongoose');
