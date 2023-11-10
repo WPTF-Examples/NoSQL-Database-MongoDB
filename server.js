@@ -65,7 +65,6 @@ app.post("/addName", (req, res) => {
   });
 });
 
-
 mongoose.connect(DB).then(()=>{
   app.listen(HTTP_PORT, ()=>{
     console.log(`server listening on: ${HTTP_PORT}`);
